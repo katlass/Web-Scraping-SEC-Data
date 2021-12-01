@@ -96,4 +96,5 @@ companies=['apple inc.','alphabet inc.','microsoft corp','amazon com inc' ,'face
 txtFiles = pullFile(companies) 
 with open('txtFiles.pkl', 'wb') as f:
         pickle.dump(txtFiles, f)
-  
+with open('companies.pkl', 'wb') as f:
+        pickle.dump(companies, f)
